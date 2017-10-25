@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>uniMail</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+	<form id="callback" class="popup-form">
+		
+		<div class="success">Спасибо за заявку!</div>
+		
+		<h3>Заполните форму</h3>
+
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+		<input type="text" name="Name" placeholder="You name..." required>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required>
+		<input type="text" name="Phone" placeholder="You phone...">
+
+		<div class="text-center">
+			<button class="button">Send</button>
+		</div>
+
+	</form>
+	
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>

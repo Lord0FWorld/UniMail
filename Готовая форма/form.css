@@ -1,0 +1,85 @@
+/*Успешно отправлено*/
+.popup-form .success {
+    position: absolute;
+    display: none;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    z-index: 2;
+    color: green;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+/*Успешно отправлено*/
+
+/*Форма*/
+.popup-form{
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+.popup-form h3 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.popup-form label {
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+.popup-form label span {
+    color: #999;
+}
+.popup-form input {
+    padding: 5px 10px;
+    border: #fc0 4px solid;
+    display: block;
+    width: 100%;
+}
+
+.popup-form .button {
+     margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer
+    color: #111;
+    background-color: #fc0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: .9375em;
+    padding: 6px 22px;
+    position: relative;
+    border: none;
+    outline: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: background-color .25s ease;
+    transition: background-color .25s ease;
+}
+.button:focus, .button:hover {
+    text-decoration: none;
+    color: #222;
+    background-color: #ffdb4d;
+}
+.button:after {
+    content: "";
+    position: absolute;
+    background-color: #cca300;
+    width: 100%;
+    bottom: 0;
+    height: 3px;
+    left: 0;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text-center{
+    text-align: center;
+}
+/*Форма*/
+
